@@ -12,9 +12,9 @@ def eval_expr(t,d={}):
 
             pocet+=1
 
-    if pocet == 0:
-
-        return 0
+    #if pocet == 0:
+    #
+    #    return 0
 
     for i in range(n):
             
@@ -93,4 +93,4 @@ def to_infix(t):
             st4="( {} / {} )".format(b,a)
             st.append(st4)
 
-    print(st.pop())
+    return st.pop()
